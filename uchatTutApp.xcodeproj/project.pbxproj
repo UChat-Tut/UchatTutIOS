@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26178BA72660AD0F7E243A70 /* Pods_uchatTutApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A567D32A0CD087FC89C5880 /* Pods_uchatTutApp.framework */; };
 		3A9406AB2373826A005FD891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9406AA2373826A005FD891 /* AppDelegate.swift */; };
 		3A9406AD2373826A005FD891 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9406AC2373826A005FD891 /* SceneDelegate.swift */; };
 		3A9406AF2373826A005FD891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9406AE2373826A005FD891 /* ViewController.swift */; };
 		3A9406B22373826A005FD891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9406B02373826A005FD891 /* Main.storyboard */; };
 		3A9406B423738270005FD891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9406B323738270005FD891 /* Assets.xcassets */; };
 		3A9406B723738270005FD891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9406B523738270005FD891 /* LaunchScreen.storyboard */; };
+		3A9406BF2373847F005FD891 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A9406BE2373847E005FD891 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BEACF8779A5A00CF41780DA /* Pods-uchatTutApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uchatTutApp.release.xcconfig"; path = "Target Support Files/Pods-uchatTutApp/Pods-uchatTutApp.release.xcconfig"; sourceTree = "<group>"; };
 		3A9406A72373826A005FD891 /* uchatTutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uchatTutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9406AA2373826A005FD891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A9406AC2373826A005FD891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		3A9406B323738270005FD891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A9406B623738270005FD891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A9406B823738270005FD891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9406BE2373847E005FD891 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6A567D32A0CD087FC89C5880 /* Pods_uchatTutApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uchatTutApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6CD887E0A4B16B91EEC93D /* Pods-uchatTutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uchatTutApp.debug.xcconfig"; path = "Target Support Files/Pods-uchatTutApp/Pods-uchatTutApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26178BA72660AD0F7E243A70 /* Pods_uchatTutApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				3A9406A92373826A005FD891 /* uchatTutApp */,
 				3A9406A82373826A005FD891 /* Products */,
+				F252D656A54D6F2B325EE006 /* Pods */,
+				7BA08DB894D4E56DF6DBDDF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +71,28 @@
 				3A9406B02373826A005FD891 /* Main.storyboard */,
 				3A9406B323738270005FD891 /* Assets.xcassets */,
 				3A9406B523738270005FD891 /* LaunchScreen.storyboard */,
+				3A9406BE2373847E005FD891 /* GoogleService-Info.plist */,
 				3A9406B823738270005FD891 /* Info.plist */,
 			);
 			path = uchatTutApp;
+			sourceTree = "<group>";
+		};
+		7BA08DB894D4E56DF6DBDDF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A567D32A0CD087FC89C5880 /* Pods_uchatTutApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F252D656A54D6F2B325EE006 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C6CD887E0A4B16B91EEC93D /* Pods-uchatTutApp.debug.xcconfig */,
+				2BEACF8779A5A00CF41780DA /* Pods-uchatTutApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A9406BB23738270005FD891 /* Build configuration list for PBXNativeTarget "uchatTutApp" */;
 			buildPhases = (
+				9A4EA437F6501A8937324732 /* [CP] Check Pods Manifest.lock */,
 				3A9406A32373826A005FD891 /* Sources */,
 				3A9406A42373826A005FD891 /* Frameworks */,
 				3A9406A52373826A005FD891 /* Resources */,
+				F5F72F2D235714E980C2C398 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A9406B723738270005FD891 /* LaunchScreen.storyboard in Resources */,
+				3A9406BF2373847F005FD891 /* GoogleService-Info.plist in Resources */,
 				3A9406B423738270005FD891 /* Assets.xcassets in Resources */,
 				3A9406B22373826A005FD891 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A4EA437F6501A8937324732 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uchatTutApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F72F2D235714E980C2C398 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uchatTutApp/Pods-uchatTutApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uchatTutApp/Pods-uchatTutApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-uchatTutApp/Pods-uchatTutApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A9406A32373826A005FD891 /* Sources */ = {
@@ -282,6 +355,7 @@
 		};
 		3A9406BC23738270005FD891 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C6CD887E0A4B16B91EEC93D /* Pods-uchatTutApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +374,7 @@
 		};
 		3A9406BD23738270005FD891 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BEACF8779A5A00CF41780DA /* Pods-uchatTutApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
