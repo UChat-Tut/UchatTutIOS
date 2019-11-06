@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		2BEACF8779A5A00CF41780DA /* Pods-uchatTutApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uchatTutApp.release.xcconfig"; path = "Target Support Files/Pods-uchatTutApp/Pods-uchatTutApp.release.xcconfig"; sourceTree = "<group>"; };
-		3A9406A72373826A005FD891 /* uchatTutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uchatTutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9406A72373826A005FD891 /* Учат Тут.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Учат Тут.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9406AA2373826A005FD891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A9406AC2373826A005FD891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3A9406AE2373826A005FD891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		3A9406A82373826A005FD891 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A9406A72373826A005FD891 /* uchatTutApp.app */,
+				3A9406A72373826A005FD891 /* Учат Тут.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,7 +91,6 @@
 				8C6CD887E0A4B16B91EEC93D /* Pods-uchatTutApp.debug.xcconfig */,
 				2BEACF8779A5A00CF41780DA /* Pods-uchatTutApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,7 +113,7 @@
 			);
 			name = uchatTutApp;
 			productName = uchatTutApp;
-			productReference = 3A9406A72373826A005FD891 /* uchatTutApp.app */;
+			productReference = 3A9406A72373826A005FD891 /* Учат Тут.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -366,7 +365,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uchat-tut-app.uchatTutApp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Учат Тут";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -385,7 +384,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uchat-tut-app.uchatTutApp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Учат Тут";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
