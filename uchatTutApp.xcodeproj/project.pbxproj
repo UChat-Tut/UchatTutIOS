@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,11 +15,12 @@
 		3A9406B423738270005FD891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9406B323738270005FD891 /* Assets.xcassets */; };
 		3A9406B723738270005FD891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9406B523738270005FD891 /* LaunchScreen.storyboard */; };
 		3A9406BF2373847F005FD891 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A9406BE2373847E005FD891 /* GoogleService-Info.plist */; };
+		3A9406C123738C16005FD891 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3A9406C023738C16005FD891 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2BEACF8779A5A00CF41780DA /* Pods-uchatTutApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uchatTutApp.release.xcconfig"; path = "Target Support Files/Pods-uchatTutApp/Pods-uchatTutApp.release.xcconfig"; sourceTree = "<group>"; };
-		3A9406A72373826A005FD891 /* uchatTutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uchatTutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9406A72373826A005FD891 /* Учат Тут.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Учат Тут.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9406AA2373826A005FD891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A9406AC2373826A005FD891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3A9406AE2373826A005FD891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		3A9406B623738270005FD891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A9406B823738270005FD891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A9406BE2373847E005FD891 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3A9406C023738C16005FD891 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6A567D32A0CD087FC89C5880 /* Pods_uchatTutApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uchatTutApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6CD887E0A4B16B91EEC93D /* Pods-uchatTutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uchatTutApp.debug.xcconfig"; path = "Target Support Files/Pods-uchatTutApp/Pods-uchatTutApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +49,7 @@
 		3A94069E2373826A005FD891 = {
 			isa = PBXGroup;
 			children = (
+				3A9406C023738C16005FD891 /* .gitignore */,
 				3A9406A92373826A005FD891 /* uchatTutApp */,
 				3A9406A82373826A005FD891 /* Products */,
 				F252D656A54D6F2B325EE006 /* Pods */,
@@ -57,7 +60,7 @@
 		3A9406A82373826A005FD891 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A9406A72373826A005FD891 /* uchatTutApp.app */,
+				3A9406A72373826A005FD891 /* Учат Тут.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,7 +94,6 @@
 				8C6CD887E0A4B16B91EEC93D /* Pods-uchatTutApp.debug.xcconfig */,
 				2BEACF8779A5A00CF41780DA /* Pods-uchatTutApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,7 +116,7 @@
 			);
 			name = uchatTutApp;
 			productName = uchatTutApp;
-			productReference = 3A9406A72373826A005FD891 /* uchatTutApp.app */;
+			productReference = 3A9406A72373826A005FD891 /* Учат Тут.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -155,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9406C123738C16005FD891 /* .gitignore in Resources */,
 				3A9406B723738270005FD891 /* LaunchScreen.storyboard in Resources */,
 				3A9406BF2373847F005FD891 /* GoogleService-Info.plist in Resources */,
 				3A9406B423738270005FD891 /* Assets.xcassets in Resources */,
@@ -366,7 +369,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uchat-tut-app.uchatTutApp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Учат Тут";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -385,7 +388,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uchat-tut-app.uchatTutApp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Учат Тут";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
